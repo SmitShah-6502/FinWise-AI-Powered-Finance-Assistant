@@ -1,39 +1,17 @@
-# Web app
-streamlit==1.30.0
-
-# Data + numerics
-numpy>=1.24.0
-pandas>=1.5.0
-openpyxl>=3.1.0
-requests>=2.28.0
-python-dotenv>=1.0.0
-
-# Visualization / helpers
-matplotlib>=3.5.0
-
-# Time-series forecasting
-prophet==1.2.1
-
-# ML / utils
-scikit-learn>=1.2.0
-joblib>=1.2.0
-
-# LangChain core + community integrations (install from PyPI to avoid git clone)
-langchain>=0.0.285
-langchain-community>=0.2.19
-
-# Transformers / embeddings
-transformers>=4.30.0
-sentence-transformers>=2.2.2
-
-# Vector DB / similarity search (CPU). If you cannot install faiss-cpu, use an alternate vector store.
-faiss-cpu==1.13.0
-
-# Other (TTS / translation / LLM clients)
-gTTS>=2.4.0
-deep-translator>=1.9.6
-groq==0.4.3
-
-# Production server (optional)
-uvicorn>=0.22.0
-gunicorn>=20.1.0
+streamlit
+pandas
+numpy
+matplotlib
+requests
+python-dotenv
+openpyxl
+scikit-learn
+joblib
+prophet
+langchain
+langchain-community
+transformers
+sentence-transformers
+gTTS
+deep-translator
+groq
