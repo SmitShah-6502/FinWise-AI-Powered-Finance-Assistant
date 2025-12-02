@@ -7,7 +7,6 @@ python-dotenv
 openpyxl
 scikit-learn
 joblib
-prophet
 langchain
 langchain-community
 transformers
@@ -15,3 +14,4 @@ sentence-transformers
 gTTS
 deep-translator
 groq
+neuralprophet
