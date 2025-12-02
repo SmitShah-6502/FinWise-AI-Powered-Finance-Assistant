@@ -1,42 +1,39 @@
-# Core web app
+# Web app
 streamlit==1.30.0
+
+# Data + numerics
+numpy>=1.24.0
 pandas>=1.5.0
-matplotlib>=3.5.0
+openpyxl>=3.1.0
 requests>=2.28.0
+python-dotenv>=1.0.0
+
+# Visualization / helpers
+matplotlib>=3.5.0
 
 # Time-series forecasting
 prophet==1.2.1
-
-# Finance / data
-yahooquery>=2.2.0
-numpy>=1.24.0
 
 # ML / utils
 scikit-learn>=1.2.0
 joblib>=1.2.0
 
-# LangChain, RAG and embeddings
+# LangChain core + community integrations (install from PyPI to avoid git clone)
 langchain>=0.0.285
-langchain-community @ git+https://github.com/hwchase17/langchain-extensions.git@main
+langchain-community>=0.2.19
 
-# Sentence-transformers + HuggingFace embeddings
-sentence-transformers>=2.2.2
+# Transformers / embeddings
 transformers>=4.30.0
+sentence-transformers>=2.2.2
 
-# FAISS (CPU) - if using GPU change to faiss-gpu
-faiss-cpu==1.7.4
+# Vector DB / similarity search (CPU). If you cannot install faiss-cpu, use an alternate vector store.
+faiss-cpu==1.13.0
 
-# Groq / LLM client (used in app as `groq`)
-groq==0.4.3
-
-# TTS / translation
+# Other (TTS / translation / LLM clients)
 gTTS>=2.4.0
 deep-translator>=1.9.6
+groq==0.4.3
 
-# Other helpers
-python-dotenv>=1.0.0
-openpyxl>=3.1.0
-
-# Optional / helper libs often required in cloud deployments
+# Production server (optional)
 uvicorn>=0.22.0
 gunicorn>=20.1.0
