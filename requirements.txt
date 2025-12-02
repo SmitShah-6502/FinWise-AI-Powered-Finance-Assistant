@@ -9,6 +9,7 @@ scikit-learn
 joblib
 langchain
 langchain-community
+langchain-text-splitters
 transformers
 sentence-transformers
 gTTS
@@ -16,3 +17,4 @@ deep-translator
 groq
 neuralprophet
 yahooquery
+
