@@ -8,6 +8,7 @@ openpyxl
 scikit-learn
 joblib
 langchain
+langchain-huggingface
 langchain-community
 langchain-text-splitters
 transformers
@@ -18,5 +19,6 @@ groq
 neuralprophet
 yahooquery
 prophet
+
 
 
