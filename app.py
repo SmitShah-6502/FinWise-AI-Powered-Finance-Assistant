@@ -11,7 +11,7 @@ import math
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 import tempfile
 from gtts import gTTS
 from deep_translator import GoogleTranslator
@@ -885,6 +885,7 @@ with tabs[3]:
     diversification_analysis_page()
 with tabs[4]:
     budget_recommendation_page()
+
 
 
 
